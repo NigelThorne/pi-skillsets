@@ -1,0 +1,16 @@
+{
+  "name": "pi-skillsets",
+  "version": "0.1.0",
+  "description": "Pi /skillset command: pick per-session skill and extension collections from ~/.pi/agent/skillsets.",
+  "keywords": ["pi-package", "pi", "skillset", "skills"],
+  "license": "MIT",
+  "type": "module",
+  "author": "Nigel Thorne",
+  "repository": { "type": "git", "url": "git+https://github.com/nigelthorne/pi-skillsets.git" },
+  "homepage": "https://github.com/nigelthorne/pi-skillsets#readme",
+  "bugs": { "url": "https://github.com/nigelthorne/pi-skillsets/issues" },
+  "files": ["extensions", "README.md", "LICENSE"],
+  "scripts": { "test": "node --test test/" },
+  "pi": { "extensions": ["./extensions/skillset.ts"] },
+  "peerDependencies": { "@earendil-works/pi-coding-agent": "*" }
+}
